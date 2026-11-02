@@ -1,0 +1,152 @@
+[
+  {
+    "title": "What is a Relational Database?",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "A relational database stores data in tables with rows and columns. Relationships between tables are defined using keys. SQL is used to query and manage the data. Normalization reduces redundancy."
+  },
+  {
+    "title": "Database Indexes",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "A database index is a data structure that improves the speed of data retrieval operations on a table. Indexes are created on columns frequently used in WHERE clauses or JOINs. Common types include B-tree and hash indexes."
+  },
+  {
+    "title": "SQL Transactions",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "A transaction is a sequence of database operations that are treated as a single unit. Transactions follow ACID properties: Atomicity, Consistency, Isolation, and Durability. COMMIT and ROLLBACK control transaction outcomes."
+  },
+  {
+    "title": "Vector Databases",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "Vector databases store high-dimensional vectors and support similarity search using distance metrics like cosine or Euclidean. They are used for embeddings in AI applications. MariaDB supports VECTOR type and HNSW indexes for native vector search."
+  },
+  {
+    "title": "Operating System Basics",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "An operating system manages hardware resources and provides services for computer programs. It handles process scheduling, memory management, file systems, and device I/O. Examples include Linux, Windows, and macOS."
+  },
+  {
+    "title": "Mutual Exclusion",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "Mutual exclusion is a property of concurrent systems where only one process can access a shared resource at a time. It prevents race conditions. Mechanisms include locks, semaphores, and mutexes."
+  },
+  {
+    "title": "Process Scheduling",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "Process scheduling determines which process runs on the CPU. Algorithms include First-Come-First-Served, Shortest Job First, Round Robin, and Priority Scheduling. The goal is fairness and efficient CPU utilization."
+  },
+  {
+    "title": "Virtual Memory",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "Virtual memory is a memory management technique that gives processes the illusion of a large contiguous address space. It uses paging or segmentation. Page faults occur when a required page is not in physical memory."
+  },
+  {
+    "title": "CPU Instruction Execution",
+    "source": "CS Knowledge Base",
+    "category": "Computer Architecture",
+    "content": "A CPU executes instructions in a fetch-decode-execute cycle. The program counter holds the address of the next instruction. The control unit coordinates the ALU, registers, and memory to perform the operation."
+  },
+  {
+    "title": "Cache Memory",
+    "source": "CS Knowledge Base",
+    "category": "Computer Architecture",
+    "content": "Cache memory is a small, fast memory layer between the CPU and main memory. It stores frequently accessed data to reduce latency. Cache hits and misses affect performance. Multi-level caches (L1, L2, L3) are common."
+  },
+  {
+    "title": "Pipelining",
+    "source": "CS Knowledge Base",
+    "category": "Computer Architecture",
+    "content": "Instruction pipelining overlaps the execution of multiple instructions. Stages typically include fetch, decode, execute, memory, and writeback. Hazards such as data, control, and structural hazards can stall the pipeline."
+  },
+  {
+    "title": "Sorting Algorithms",
+    "source": "CS Knowledge Base",
+    "category": "Algorithms",
+    "content": "Common sorting algorithms include Bubble Sort, Merge Sort, Quick Sort, and Heap Sort. Time complexity ranges from O(n^2) for simple sorts to O(n log n) for efficient ones. Stability and space usage vary."
+  },
+  {
+    "title": "Graph Algorithms",
+    "source": "CS Knowledge Base",
+    "category": "Algorithms",
+    "content": "Graph algorithms solve problems on graph structures. Breadth-First Search and Depth-First Search traverse graphs. Dijkstra's algorithm finds shortest paths. Minimum spanning trees use Kruskal or Prim algorithms."
+  },
+  {
+    "title": "TCP/IP Protocol",
+    "source": "CS Knowledge Base",
+    "category": "Networking",
+    "content": "TCP/IP is the foundational protocol suite of the Internet. IP handles addressing and routing. TCP provides reliable, ordered, connection-oriented delivery. UDP is connectionless and faster for some applications."
+  },
+  {
+    "title": "HTTP Protocol",
+    "source": "CS Knowledge Base",
+    "category": "Networking",
+    "content": "HTTP is an application-layer protocol for web communication. It uses methods like GET, POST, PUT, and DELETE. HTTP/1.1 is text-based; HTTP/2 and HTTP/3 improve performance with multiplexing and QUIC."
+  },
+  {
+    "title": "DNS Resolution",
+    "source": "CS Knowledge Base",
+    "category": "Networking",
+    "content": "DNS translates domain names into IP addresses. Resolution involves recursive and iterative queries through root, TLD, and authoritative servers. Caching reduces lookup latency."
+  },
+  {
+    "title": "Object-Oriented Programming",
+    "source": "CS Knowledge Base",
+    "category": "Programming",
+    "content": "OOP organizes code around objects that combine data and behavior. Core principles are encapsulation, inheritance, polymorphism, and abstraction. Languages like Java, Python, and C++ support OOP."
+  },
+  {
+    "title": "Recursion",
+    "source": "CS Knowledge Base",
+    "category": "Programming",
+    "content": "Recursion is a technique where a function calls itself to solve smaller instances of the same problem. It requires a base case to terminate. Examples include factorial, Fibonacci, and tree traversals."
+  },
+  {
+    "title": "Hash Tables",
+    "source": "CS Knowledge Base",
+    "category": "Algorithms",
+    "content": "A hash table stores key-value pairs using a hash function to compute an index. Collisions are handled by chaining or open addressing. Average-case operations are O(1)."
+  },
+  {
+    "title": "Binary Search Trees",
+    "source": "CS Knowledge Base",
+    "category": "Algorithms",
+    "content": "A binary search tree maintains the property that left child keys are less than the parent and right child keys are greater. Search, insert, and delete are O(log n) on average but O(n) in the worst case."
+  },
+  {
+    "title": "Concurrency vs Parallelism",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "Concurrency is about dealing with multiple tasks that may interleave. Parallelism is about executing multiple tasks simultaneously on multiple cores. Both are important in modern systems programming."
+  },
+  {
+    "title": "Deadlocks",
+    "source": "CS Knowledge Base",
+    "category": "Operating Systems",
+    "content": "A deadlock occurs when processes wait indefinitely for resources held by each other. Conditions include mutual exclusion, hold-and-wait, no preemption, and circular wait. Prevention, avoidance, and detection strategies exist."
+  },
+  {
+    "title": "Memory Hierarchy",
+    "source": "CS Knowledge Base",
+    "category": "Computer Architecture",
+    "content": "The memory hierarchy ranges from fast, small registers and caches to larger, slower main memory and disk. The principle of locality makes caching effective. Access times and capacities differ by orders of magnitude."
+  },
+  {
+    "title": "SQL Joins",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "SQL joins combine rows from two or more tables based on a related column. Types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN. Joins are fundamental for relational queries."
+  },
+  {
+    "title": "Normalization",
+    "source": "CS Knowledge Base",
+    "category": "Databases",
+    "content": "Database normalization organizes tables to reduce redundancy and improve integrity. Normal forms include 1NF, 2NF, 3NF, and BCNF. It eliminates update anomalies but may increase join complexity."
+  }
+]
