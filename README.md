@@ -50,8 +50,13 @@ Normalization: L2-normalized embeddings (normalize_embeddings=True)
 
 ## Database
 Schema defined in `sql/01_schema.sql`.  
-VECTOR(384) column with VECTOR INDEX.  
+The table has a VECTOR(384) column and a cosine VECTOR INDEX.
 Hybrid SQL + vector queries in `sql/03_vector_queries.sql`.
+A separate SQL test with sample vectors is in `sql/04_database_smoke_test.sql`.
+Simple database notes, setup steps, test status, and a screenshot list are in
+`docs/database.md`.
+Tested with MariaDB `12.3.3-MariaDB-ubu2404` in Docker.
+Set `DB_PORT=3307` for the tested Docker container.
 
 ## How to run
 1. Install MariaDB Community Server 12.3+ (or any version with VECTOR/HNSW support).
@@ -68,7 +73,7 @@ Hybrid SQL + vector queries in `sql/03_vector_queries.sql`.
 4. Set environment variables (never commit passwords):
    ```bash
    export DB_HOST=127.0.0.1
-   export DB_PORT=3306
+   export DB_PORT=3306  # use 3307 for the tested Docker container
    export DB_USER=root
    export DB_NAME=cs_vector_rag
    export DB_PASSWORD=YOUR_LOCAL_PASSWORD
@@ -107,7 +112,7 @@ Results are printed with Hit@5 rate.
 
 ## MariaDB-specific features
 - VECTOR(384)
-- VECTOR INDEX (HNSW)
+- VECTOR INDEX (MHNSW/HNSW) with `DISTANCE=cosine`
 - VEC_DISTANCE_COSINE()
 - Hybrid SQL filtering + vector ranking
 - VEC_FromText() for inserting query vectors
