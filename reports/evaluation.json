@@ -1,0 +1,365 @@
+{
+  "metrics": {
+    "Hit@1": {
+      "hits": 8,
+      "total": 8,
+      "rate": 1.0
+    },
+    "Hit@3": {
+      "hits": 8,
+      "total": 8,
+      "rate": 1.0
+    },
+    "Hit@5": {
+      "hits": 8,
+      "total": 8,
+      "rate": 1.0
+    }
+  },
+  "questions": [
+    {
+      "question": "How does a CPU execute instructions?",
+      "expected_categories": [
+        "Computer Architecture"
+      ],
+      "retrieved": [
+        {
+          "id": 9,
+          "title": "CPU Instruction Execution",
+          "category": "Computer Architecture",
+          "distance": 0.2646046760018633
+        },
+        {
+          "id": 7,
+          "title": "Process Scheduling",
+          "category": "Operating Systems",
+          "distance": 0.4710667621855259
+        },
+        {
+          "id": 11,
+          "title": "Pipelining",
+          "category": "Computer Architecture",
+          "distance": 0.535595770971909
+        },
+        {
+          "id": 5,
+          "title": "Operating System Basics",
+          "category": "Operating Systems",
+          "distance": 0.6110050789604085
+        },
+        {
+          "id": 21,
+          "title": "Concurrency vs Parallelism",
+          "category": "Operating Systems",
+          "distance": 0.6865871809919502
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "What is mutual exclusion?",
+      "expected_categories": [
+        "Operating Systems"
+      ],
+      "retrieved": [
+        {
+          "id": 6,
+          "title": "Mutual Exclusion",
+          "category": "Operating Systems",
+          "distance": 0.18424693270340353
+        },
+        {
+          "id": 22,
+          "title": "Deadlocks",
+          "category": "Operating Systems",
+          "distance": 0.6486824937052516
+        },
+        {
+          "id": 21,
+          "title": "Concurrency vs Parallelism",
+          "category": "Operating Systems",
+          "distance": 0.7376221013792574
+        },
+        {
+          "id": 19,
+          "title": "Hash Tables",
+          "category": "Algorithms",
+          "distance": 0.765695559367237
+        },
+        {
+          "id": 3,
+          "title": "SQL Transactions",
+          "category": "Databases",
+          "distance": 0.7947708381079811
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "What is a relational database?",
+      "expected_categories": [
+        "Databases"
+      ],
+      "retrieved": [
+        {
+          "id": 1,
+          "title": "What is a Relational Database?",
+          "category": "Databases",
+          "distance": 0.2313509427668462
+        },
+        {
+          "id": 2,
+          "title": "Database Indexes",
+          "category": "Databases",
+          "distance": 0.5214724946744236
+        },
+        {
+          "id": 24,
+          "title": "SQL Joins",
+          "category": "Databases",
+          "distance": 0.5314820204076451
+        },
+        {
+          "id": 25,
+          "title": "Normalization",
+          "category": "Databases",
+          "distance": 0.5840859419775173
+        },
+        {
+          "id": 19,
+          "title": "Hash Tables",
+          "category": "Algorithms",
+          "distance": 0.5994176146446825
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "Explain TCP/IP",
+      "expected_categories": [
+        "Networking"
+      ],
+      "retrieved": [
+        {
+          "id": 14,
+          "title": "TCP/IP Protocol",
+          "category": "Networking",
+          "distance": 0.21588323446188296
+        },
+        {
+          "id": 15,
+          "title": "HTTP Protocol",
+          "category": "Networking",
+          "distance": 0.6099628260532108
+        },
+        {
+          "id": 9,
+          "title": "CPU Instruction Execution",
+          "category": "Computer Architecture",
+          "distance": 0.6644667315149461
+        },
+        {
+          "id": 16,
+          "title": "DNS Resolution",
+          "category": "Networking",
+          "distance": 0.7130132077161264
+        },
+        {
+          "id": 5,
+          "title": "Operating System Basics",
+          "category": "Operating Systems",
+          "distance": 0.7291562095829507
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "What is a hash table?",
+      "expected_categories": [
+        "Algorithms"
+      ],
+      "retrieved": [
+        {
+          "id": 19,
+          "title": "Hash Tables",
+          "category": "Algorithms",
+          "distance": 0.23855439284874147
+        },
+        {
+          "id": 2,
+          "title": "Database Indexes",
+          "category": "Databases",
+          "distance": 0.5454980704199642
+        },
+        {
+          "id": 1,
+          "title": "What is a Relational Database?",
+          "category": "Databases",
+          "distance": 0.5819381992781756
+        },
+        {
+          "id": 25,
+          "title": "Normalization",
+          "category": "Databases",
+          "distance": 0.6788328867789616
+        },
+        {
+          "id": 24,
+          "title": "SQL Joins",
+          "category": "Databases",
+          "distance": 0.6997219203853823
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "How does virtual memory work?",
+      "expected_categories": [
+        "Operating Systems"
+      ],
+      "retrieved": [
+        {
+          "id": 8,
+          "title": "Virtual Memory",
+          "category": "Operating Systems",
+          "distance": 0.21794819835790646
+        },
+        {
+          "id": 10,
+          "title": "Cache Memory",
+          "category": "Computer Architecture",
+          "distance": 0.5404415164390615
+        },
+        {
+          "id": 23,
+          "title": "Memory Hierarchy",
+          "category": "Computer Architecture",
+          "distance": 0.5849447714451962
+        },
+        {
+          "id": 9,
+          "title": "CPU Instruction Execution",
+          "category": "Computer Architecture",
+          "distance": 0.5974490845526279
+        },
+        {
+          "id": 5,
+          "title": "Operating System Basics",
+          "category": "Operating Systems",
+          "distance": 0.6426716152620525
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "What are SQL joins?",
+      "expected_categories": [
+        "Databases"
+      ],
+      "retrieved": [
+        {
+          "id": 24,
+          "title": "SQL Joins",
+          "category": "Databases",
+          "distance": 0.22334301571430926
+        },
+        {
+          "id": 1,
+          "title": "What is a Relational Database?",
+          "category": "Databases",
+          "distance": 0.4217702314170342
+        },
+        {
+          "id": 25,
+          "title": "Normalization",
+          "category": "Databases",
+          "distance": 0.6168924847771848
+        },
+        {
+          "id": 2,
+          "title": "Database Indexes",
+          "category": "Databases",
+          "distance": 0.6300042294569256
+        },
+        {
+          "id": 19,
+          "title": "Hash Tables",
+          "category": "Algorithms",
+          "distance": 0.6360213187092362
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    },
+    {
+      "question": "Explain instruction pipelining",
+      "expected_categories": [
+        "Computer Architecture"
+      ],
+      "retrieved": [
+        {
+          "id": 11,
+          "title": "Pipelining",
+          "category": "Computer Architecture",
+          "distance": 0.24167220459699035
+        },
+        {
+          "id": 9,
+          "title": "CPU Instruction Execution",
+          "category": "Computer Architecture",
+          "distance": 0.506943061494773
+        },
+        {
+          "id": 7,
+          "title": "Process Scheduling",
+          "category": "Operating Systems",
+          "distance": 0.6600325032383618
+        },
+        {
+          "id": 14,
+          "title": "TCP/IP Protocol",
+          "category": "Networking",
+          "distance": 0.7241928045044247
+        },
+        {
+          "id": 18,
+          "title": "Recursion",
+          "category": "Programming",
+          "distance": 0.7432851137747514
+        }
+      ],
+      "hits": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true
+      }
+    }
+  ]
+}
